@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en ">
+  <head>
+    <title>Weather API</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container container-padding50">
+      <input
+        type="text"
+        class="js-userinput container-textinput"
+        id="searchTxt"
+        placeholder="Enter your Zip Code here. Example 10010"
+      /><a href="#" class="js-go container-button" onclick="getInputValue()" id="submitButton">Search</a>
+      <p></P>
+
+    </div>
+    <p></P>
+      <div class="results">
+        <div class="js-container">
+            <div class="js-well">
+                <h3 class="location">Location: </h3>
+                <h3 class="temp">Current Temperature: </h3>
+                <h3 class="maxt">Maximum Temperature: </h3>
+                <h3 class="mint">Minimum Temperature: </h3>
+                <h3 class="conditions">Conditions: </h3>
+
+            </div>
+
+        </div>
+
+      </div>
+
+    <div class="container container-padding50 js-container"></div>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
